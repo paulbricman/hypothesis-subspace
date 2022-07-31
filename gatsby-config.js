@@ -9,7 +9,7 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: `Yet Another Hypothesis Subspace`,
+    title: `Hypothesis Subspace`,
   },
   pathPrefix: "/hypothesis-subspace",
 }
