@@ -1,0 +1,7 @@
+---
+title: "Contrastive Dreaming"
+---
+
+# Contrastive Dreaming
+
+Dreaming has been argued to act as a source of negative examples (i.e. how the world isn't like), in order to complement the positive examples of wakefulness. In [DeepDream art](https://en.wikipedia.org/wiki/DeepDream), people force AIs  to project their internal models of their world onto their world (e.g. by mutating input images into extreme dogginess). While those hallucinations generally point in the right direction, they always violate reality (e.g. ultra-doggified images fail to depict how dogs really show up in the world — you can easily tell that the image is DeepDreamed). That makes for a perfect source of negative examples to complement robust adversarial training, because dreamed up data is simultaneously not how the world is and how the model thinks the world is. This contrastive dreaming scheme might improve generalization in evaluators meant to operationalize human ideals of the world, and provide a dense source of edge cases to be prioritized in (human) oversight.

@@ -1,0 +1,7 @@
+---
+title: "Abstraction Inductors"
+---
+
+# Abstraction Inductors
+
+Initial results from a recent interpretability technique (incidentally, my [bachelor's thesis](https://fse.studenttheses.ub.rug.nl/27840/1/NSCv5.pdf)), indicate that it's possible to extract parts of a transformer's internal ontology directly from latent activations, without making use of outputs at all. Analysing internal representations directly also has the benefit of making the technique modality-agnostic. Given this class of interpretability tools, what if we directly conditioned the model's ontological structure during training so as to force it to correctly learn the concept of human values in relation to other unconditioned concepts? This might either involve using a blank slate token with no other connotations or building on an existing symbol like "human values" and conditioning its internal representation.
